@@ -1,0 +1,43 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --black: #3c0357;
+    --blue: #5DB7DE;
+    --light: #F1E9DB;
+    --gray: #A39B8B;
+    --pants: #716A5C;
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    display:grid;
+    height:100vh;
+    grid-template-rows: 3fr 8fr 2fr;
+    justify-content: center;
+    background-color: var(--light);
+    color:var(--black)
+}
+
+
+
+/* HEADER */
+
+header{
+    text-align:center;
+}
+
+/* GAMEBOARD */
+
+.game-box{
+    background-color: var(--pants);
+    width:600px;
+    height:550px;
+    border-radius:20px;
+}
+
+
+/* FOOTER */
+
+footer{
+}
