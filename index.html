@@ -7,20 +7,45 @@
     <title>Document</title>
 </head>
 <body>
+    <dialog class="start-screen">
+        <div>
+            <form action="" class="start-form">
+                <legend>Enter Player Names:</legend>
+                <fieldset>
+                    <div>
+                        <label for="playerX">Who is playing X</label>
+                        <input type="text" id="playerX" required>
+                    </div>
+                    <div>
+                        <label for="playerO">Who is playing O</label>
+                        <input type="text" id="playerO" required>
+                    </div>
+                </fieldset>
+                <button class="start-button">Start Game</button>
+            </form>
+        </div>
+    </dialog>
         <header>
         <h1>Tic-Tac-Toe</h1>
-        <p>Placeholder's Turn</p>
-        <p>Score</p>
+        <p class="turn">...</p>
+        
     </header>
-    <div class="game-box">
+
+    <dialog class="end-screen">
+        <div>
+            <h2 class="winner"></h2>
+            <button class="play-again">
+                Play Again
+            </button>
+        </div>
+    </dialog>
         <div class="gameboard">
 
         </div>
+        <button class="restart">Restart</button>
     </div>
 
-    <div class="options">
-        <button>Play Again >></button>
-    </div>
+
 
 
     <script src="javascript.js"></script>
